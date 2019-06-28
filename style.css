@@ -1,5 +1,6 @@
 
   body {
+    font-family: 'Aguafina Script', cursive;
     margin: 0;
     background-color: black;
     background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");  
@@ -22,7 +23,7 @@
     height: 70vh;
     margin: 0;
     overflow: hidden;
-    border-radius: 39%;
+    border-radius: 68%;
   }
   
   .clock {
@@ -270,8 +271,17 @@
   }
 
   .clockTag{
-      text-align: center;
-      margin-top: 64%;
-      color: green;
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+    margin-top: 64%;
+    color: black;
+    font-size: 1.5rem;
+  }
+
+  #car{
+    position: absolute;
+    top: -22%;
+    right: 28%;
+    font-size: 3rem;
   }
   
