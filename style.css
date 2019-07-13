@@ -7,10 +7,10 @@
 
   }
 
-  .flex-container{
-    display: flex;
+  .container{
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     border-radius: 7%;
     margin-top: 5%;
   }
@@ -19,11 +19,10 @@
     background-color: #a1a1a1;
     background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");  
     padding: 0;
-    width: 50%;
-    height: 70vh;
+    height: 67vh;
     margin: 0;
     overflow: hidden;
-    border-radius: 68%;
+    border-radius: 40%;
   }
   
   .clock {
@@ -295,8 +294,12 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 7%;
     /* height: 64%; */
-    line-height: 36px;
+    /* line-height: 36px;
     display: flex;
-    justify-content: center;
-  }
+    justify-content: center; */
+    background-size: 242%;
+    background-position-y: 39%;
+    background-position-x: 51%;
+    color: transparent;
+    }
   
